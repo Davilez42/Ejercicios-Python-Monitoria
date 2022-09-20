@@ -1,4 +1,3 @@
-# Ejercicios Clase 12
 
 ## List Comprehension
 

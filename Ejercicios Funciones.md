@@ -1,10 +1,3 @@
-# Taller Clase 4
-
-Este taller debe crear una biblioteca llamada **taller** y la solución de cada ejercicio se realizará en una función llamada _ejercicio_X_, donde _X_ es el número del ejercicio.  
-
-Adicionalmente, crear un archivo _prueba_ donde se escribirán los comandos para probar cada una de las funciones.
-
-**Nota**: si necesita crear funciones adicionales para resolver los ejercicios, debes crearlas en la biblioteca, en el archivo prueba no debes crear ninguna función. 
 
 ## Ejercicio 1
 Escribir una función a la que se le pase una cadena `<nombre>` y muestre por pantalla el saludo `¡hola <nombre>!`.
