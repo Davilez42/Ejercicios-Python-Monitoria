@@ -10,7 +10,7 @@ def clasificacion(nombre, asignatura, pacial, taea1, taea2, paFinal, paticipacio
     nota_definitiva = calcularDefinitiva(
         pacial, taea1, taea2, paFinal, paticipacion)
     clasificacion = ""
-    print(nota_definitiva)
+
     if (asignatura == "Fundamentos" or asignatura == "Calculo"):
         if nota_definitiva >= 0.0 and nota_definitiva < 2.0:
             clasificacion = "Malo"
@@ -39,9 +39,11 @@ def clasificacion(nombre, asignatura, pacial, taea1, taea2, paFinal, paticipacio
             clasificacion = "Excelente"
         if nota_definitiva >= 4.0 and nota_definitiva <= 5 and asignatura == "Deporte":
             clasificacion = "Bueno"
-    print(f'''Nombre del alumno: {nombre}\n 
-              Nombre de la asignatura: {asignatura}\n
-              Clasificacion: {clasificacion}
+            
+    print(
+        f'''            Nombre del alumno: {nombre} 
+            Nombre de la asignatura: {asignatura} 
+            Clasificacion: {clasificacion}
             ''' )
 
 clasificacion("David","Fundamentos",4.1,3.0,4.2,4.6,3.6)
